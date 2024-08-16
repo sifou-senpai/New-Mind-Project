@@ -1,9 +1,3 @@
-$(".option").click(function () {
-    $(".option").removeClass("active");
-    $(this).addClass("active");
-
-});
-
 /***************************************************************************************/
 document.getElementById("searchButton").addEventListener("click", function () {
     var searchModal = new bootstrap.Modal(document.getElementById('search'));
@@ -12,14 +6,18 @@ document.getElementById("searchButton").addEventListener("click", function () {
 
 /***************************************************************************************/
 document.addEventListener('DOMContentLoaded', function () {
-
     const closeButton = document.getElementById('closeButton');
-    const searchButton = document.getElementById('searchButton');
-
-    const modal = new bootstrap.Modal(document.getElementById('search'));
+    const modalElement = document.getElementById('search');
+    const modal = new bootstrap.Modal(modalElement);
 
     closeButton.addEventListener('click', function () {
         modal.hide();
+    });
+
+    modalElement.addEventListener('click', function (event) {
+        if (event.target === modalElement) {
+            modal.hide();
+        }
     });
 });
 
