@@ -77,11 +77,11 @@ const updateCards = () => {
     nextCard();
   });
 
-  // Initialize and auto-rotate
+  // auto-rotate
   applyRotation();
   setInterval(nextCard, 5000);
 
-  // Background Color Change on Hover
+  // background color Change
   const serviceItems = document.querySelectorAll('.service-item');
   const serviceSection = document.querySelector('.service_section');
 
