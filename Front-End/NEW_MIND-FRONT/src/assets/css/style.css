@@ -25,6 +25,7 @@ body {
   font-family: var(--font-1);
   color: var(--dark);
   background-color: var(--white);
+  overflow-x: hidden;
 }
 
 .layout_padding {
@@ -585,8 +586,7 @@ a:focus {
 .service_section .heading_container {
   -webkit-box-align: left;
   -ms-flex-align: left;
-  align-items: left;
-  margin-left: 10%;
+  align-items: right;
 }
 
 .service-slider {
@@ -698,11 +698,12 @@ a:focus {
 }
 
 .service-controls {
-  position: absolute;
+  position: relative;
   top: 50%;
+  margin-left: 80%;
+  border-radius: 35%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   transform: translateY(-50%);
   color: var(--blue);
 }

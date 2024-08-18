@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
     "vue": "^3.4.37"
   },
   "devDependencies": {

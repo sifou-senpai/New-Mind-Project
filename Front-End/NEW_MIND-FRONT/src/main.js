@@ -1,9 +1,6 @@
-import { createApp } from 'vue'
-//import './style.css'
-import App from './App.vue'
-import './assets/css/style.scss';
-import './assets/css/style.css';
-import './assets/css/responsive.css';
-import './assets/css/bootstrap.css';
+import { createApp } from 'vue';
+import App from './App.vue';
+import 'jquery';
+import 'bootstrap';
 
 createApp(App).mount('#app');
