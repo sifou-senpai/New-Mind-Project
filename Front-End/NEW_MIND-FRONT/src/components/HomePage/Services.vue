@@ -4,7 +4,12 @@
     <div class="container-xxl py-5">
       <div class="heading_container">
         <h2>Our Services</h2>
-        <p>Access top-notch services and book appointments effortlessly.</p>
+        <p>
+          We connect you with expert consultations, mentoring,<br>
+          and specialized assistance to help you achieve your goals.<br>
+          Access top-notch services and book appointments effortlessly.
+        </p>
+
       </div>
 
       <div class="container px-lg-5">

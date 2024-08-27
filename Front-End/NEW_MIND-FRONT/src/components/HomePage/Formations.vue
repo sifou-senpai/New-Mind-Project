@@ -1,6 +1,4 @@
 <template>
-
-    
   <!-- formations section -->
 
   <section class="formation_section layout_padding">
@@ -64,46 +62,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 formations-item second wow zoomIn" data-wow-delay="0.1s">
-            <div class="position-relative rounded overflow-hidden">
-              <img class="img-fluid w-100" src="../assets/images/formation-4.jpg" alt="">
-              <div class="formations-overlay">
-                <a class="btn btn-light" href="../assets/images/formation-4.jpg" data-lightbox="portfolio"><i
-                    class="fa fa-plus fa-2x text-primary"></i></a>
-                <div class="mt-auto">
-                  <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                  <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 formations-item first wow zoomIn" data-wow-delay="0.3s">
-            <div class="position-relative rounded overflow-hidden">
-              <img class="img-fluid w-100" src="../assets/images/formation-5.jpg" alt="">
-              <div class="formations-overlay">
-                <a class="btn btn-light" href="../assets/images/formation-5.jpg" data-lightbox="portfolio"><i
-                    class="fa fa-plus fa-2x text-primary"></i></a>
-                <div class="mt-auto">
-                  <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                  <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 formations-item second wow zoomIn" data-wow-delay="0.6s">
-            <div class="position-relative rounded overflow-hidden">
-              <img class="img-fluid w-100" src="../assets/images/formation-6.jpg" alt="">
-              <div class="formations-overlay">
-                <a class="btn btn-light" href="../assets/images/formation-6.jpg" data-lightbox="portfolio"><i
-                    class="fa fa-plus fa-2x text-primary"></i></a>
-                <div class="mt-auto">
-                  <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
-                  <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+      </div>
+      <div class="show-more-container">
+        <button class="btn btn-show-more">Show More</button>
       </div>
     </div>
   </section>

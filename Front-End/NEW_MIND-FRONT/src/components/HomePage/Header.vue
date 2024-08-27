@@ -18,27 +18,27 @@
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <router-link class="nav-link" to="#about">About</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#formations">Formations</a>
+                  <router-link class="nav-link" to="#formations">Formations</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#service">Services</a>
+                  <router-link class="nav-link" to="#service">Services</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
+                  <router-link class="nav-link" to="#contact">Contact Us</router-link>
                 </li>
               </ul>
             </div>
             <div class="quote_btn-container">
-              <a href="sign-in-&-up.html" class="btn btn-primary">
+              <router-link to="/sign-in" class="btn btn-primary">
                 <i class="fa fa-user-plus"></i>
                 <span>Join Us</span>
-              </a>
+              </router-link>
             </div>
           </div>
         </nav>
@@ -55,10 +55,13 @@
               <h1>&nbsp&nbsp To</h1>
               <h1>&nbsp&nbsp&nbsp&nbsp&nbsp New Mind</h1>
               <p>
-                Your Hub for Learning, Services, and Exchange...
-                offers everything you need to grow and connect. Explore courses, access professional services,
-                and exchange ideas and resources. Join us for a better, more connected future.
+                Your Hub for Learning, Services, and Exchange...<br>
+                Offers everything you need to grow and connect.<br>
+                Explore courses, access professional services,<br>
+                and exchange ideas and resources.<br>
+                Join us for a better, more connected future.
               </p>
+
               <div class="btn-box">
                 <a href="" class="btn-1">Get A Formation</a>
                 <a href="" class="btn-2">Our Services</a>
