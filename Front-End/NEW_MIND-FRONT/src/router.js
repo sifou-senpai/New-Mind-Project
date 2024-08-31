@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from './components/HomePage.vue';
+//import { createRouter, createWebHistory } from 'vue-router';
+//import HomePage from './components/HomePage.vue';
 //import FormationsPage from './components/FormationsPage.vue';
-import SignIn from './components/SignIn&Up/SignIn&Up.vue';
-import ForgotPassword from './components/forgotPass/ForgotPass.vue';
+//import SignIn from './components/SignIn&Up/SignIn&Up.vue';
+//import ForgotPassword from './components/forgotPass/ForgotPass.vue';
 
 const routes = [
   { path: '/', component: HomePage },
